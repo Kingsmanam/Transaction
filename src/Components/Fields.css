@@ -1,25 +1,35 @@
 .tocenter {
   background-image: linear-gradient(to top right, #93278f, #29abe2, #29abe2);
-  width: 300px;
+  width: 330px;
   height: 350px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: flex-end;
   padding: 15px;
   border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
-#para {
-  /* font-family: myFirstFont;
-  src: url(sansation_light.woff); */
+.tocenter > div {
+  display: flex;
+  width: 100%;
+  height: 10%;
+  justify-content: flex-end;
+  align-items: center;
+}
+.cardnumber {
+  width: 80px;
+  text-align: end;
+  margin-left: 17px;
 }
 .textInput1 {
-  width: 100px;
+  width: 150px;
   height: 33px;
   border-radius: 5px;
   border: none;
   text-align: center;
-  margin-right: 80px;
+  margin-right: 78px;
 }
 .textInput234 {
   width: 150px;
@@ -39,25 +49,37 @@
   margin-right: 10px;
 }
 .textInput6 {
-  margin-right: 5;
   width: 60px;
   height: 33px;
   border-radius: 5px;
   border: none;
-  justify-content: space-around;
+  justify-content: center;
   flex-direction: row;
   text-align: center;
-  margin-right: 10px;
+  margin-inline-start: 5px;
+}
+.Date {
+  margin-left: 65px;
 }
 
 .cardSections {
   height: 33px;
   width: 40px;
-  margin-right: 2px;
   border-radius: 5px;
   border: none;
   text-align: center;
+  margin-inline-start: 5px;
 }
-.marginleft {
-  margin-left: 20px;
+.tocenter > button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 10%;
+  width: 80px;
+  align-self: center;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  font-size: medium;
 }

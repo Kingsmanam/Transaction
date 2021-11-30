@@ -11,22 +11,22 @@ const Fields = () => {
 
   return (
     <div className="tocenter">
-      <p>
+      <div>
         <input
           maxlength="20"
           className="textInput1"
           onChange={(e) => setPerson({ ...person, firstName: e.target.value })}
         />
         نام
-      </p>
-      <p>
+      </div>
+      <div>
         <input
           maxlength="25"
           className="textInput234"
           onChange={(e) => setPerson({ ...person, lastName: e.target.value })}
         />
         نام خانوادگی
-      </p>
+      </div>
       <div>
         <input
           maxlength="4"
@@ -68,9 +68,9 @@ const Fields = () => {
             })
           }
         />
-        شماره کارت
+        <p className="cardnumber">شماره کارت</p>
       </div>
-      <p>
+      <div>
         <input
           maxlength="13"
           style={{ marginRight: 43 }}
@@ -78,8 +78,8 @@ const Fields = () => {
           onChange={(e) => setPerson({ ...person, wallet: e.target.value })}
         />
         موجودی
-      </p>
-      <p>
+      </div>
+      <div>
         <input
           maxlength="4"
           className="textInput5 "
@@ -87,12 +87,11 @@ const Fields = () => {
           onChange={(e) => setPerson({ ...person, cvv2: e.target.value })}
         />
         cvv2
-      </p>
+      </div>
       <div>
         <input
           // type="number"
           // pattern="\d*"
-          style={{ marginRight: 70 }}
           maxlength="2"
           placeholder="ماه"
           className="textInput6"
@@ -104,7 +103,7 @@ const Fields = () => {
           className="textInput6"
           onChange={(e) => setPerson({ ...person, year: e.target.value })}
         />
-        تاریخ
+        <p className="Date">تاریخ</p>
       </div>
       <button onClick={() => setPage(1)}>تایید</button>
     </div>

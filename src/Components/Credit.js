@@ -39,9 +39,9 @@ const Credit = () => {
           <p>
             {firstName} {lastName}
           </p>
-          <div>
-            <p className="date">Expiry Date</p>
-            <p>
+          <div className="date">
+            <p>Expiry Date</p>
+            <p style={{width: 50, fontSize: 20}}>
               {year}/{month}
             </p>
           </div>

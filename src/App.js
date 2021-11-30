@@ -1,4 +1,3 @@
-import { useState } from "react";
 import "./App.css";
 
 function App() {
@@ -41,12 +40,14 @@ function App() {
       <div>
         تاریخ:
         <input
+          // type="number"
+          // pattern="\d*"
           style={{ marginRight: 70 }}
           maxlength="2"
           placeholder="ماه"
           className="textInput6"
         />
-        <input maxlength="2" placeholder="سال" className="textInput6" />
+        <input maxLength="2" placeholder="سال" className="textInput6" />
       </div>
     </div>
   );

@@ -1,0 +1,56 @@
+.tocenter {
+  background-color: #3a80e9;
+  background-image: "";
+  width: 300px;
+  height: 350px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.textInput1 {
+  width: 100px;
+  height: 33px;
+  border-radius: 5px;
+  border: none;
+  text-align: center;
+  margin-right: 80px;
+}
+.textInput234 {
+  width: 150px;
+  height: 33px;
+  border-radius: 5px;
+  border: none;
+  text-align: center;
+  margin-right: 14px;
+}
+.textInput5 {
+  width: 50px;
+  height: 33px;
+  border-radius: 5px;
+  border: none;
+  text-align: center;
+  margin-right: 10px;
+}
+.textInput6 {
+  margin-right: 5;
+  width: 60px;
+  height: 33px;
+  border-radius: 5px;
+  border: none;
+  justify-content: space-around;
+  flex-direction: row;
+  text-align: center;
+  margin-right: 10px;
+}
+
+.cardSections {
+  height: 33px;
+  width: 40px;
+  margin-right: 2px;
+  border-radius: 5px;
+  border: none;
+}
+.marginleft {
+  margin-left: 20px;
+}

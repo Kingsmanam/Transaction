@@ -1,0 +1,57 @@
+.container {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.credit {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  height: 30%;
+  width: 30%;
+  background: linear-gradient(31.58deg, #93278F -2.49%, #29ABE2 67.92%);
+  padding: 30px;
+  border-radius: 20px;  
+}
+.row-1 {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  width: 100%;
+}
+.row-2 {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  color: white;
+  font-size: xx-large;
+  font-weight: 600;
+  height: 40px;
+  width: 100%;
+  margin-top: 20px;
+}
+.CCV2 {
+  color: white;
+  font-size: large;
+}
+.row-2 > p {
+  display: flex;
+}
+/* akharin row   */
+.row-3 {
+  color: white;
+  font-size: large;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  height: 70px;
+  
+}
+/* .date {
+  
+} */

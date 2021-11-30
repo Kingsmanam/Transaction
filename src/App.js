@@ -1,6 +1,7 @@
 import "./App.css";
 
 function App() {
+  const [page, setPage] = useState(0)
   return (
     //insert ur changes in the main div "App"
     <div className="tocenter">

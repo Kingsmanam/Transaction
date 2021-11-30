@@ -4,7 +4,7 @@ function App() {
   return (
     //insert ur changes in the main div "App"
     <div className="tocenter">
-      <p>
+      <p id="para">
         نام: <input maxlength="20" className="textInput1" />
       </p>
       <p>
@@ -45,7 +45,7 @@ function App() {
           style={{ marginRight: 70 }}
           maxlength="2"
           placeholder="ماه"
-          className="textInput6"
+          className="textInput6 "
         />
         <input maxLength="2" placeholder="سال" className="textInput6" />
       </div>

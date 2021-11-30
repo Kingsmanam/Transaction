@@ -1,6 +1,6 @@
 const Svg2 = () => {
   return (
-    <div style={{ display: "flex", flexDirection: "row-reverse" }}>
+    <div>
       <svg
         width="17"
         height="18"
